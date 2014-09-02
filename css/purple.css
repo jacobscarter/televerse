@@ -1,0 +1,101 @@
+/*Template Color - Purple Theme*/
+#bodywrapper {
+	border-top:5px solid #a666af;
+	border-bottom:5px solid #a666af;
+}
+#topBar {
+	width: 100%;
+	height: 120px;
+}
+a {
+	color: #a666af;
+}
+a:hover {
+	color: #a666af;
+}
+a:visited {
+	color: #a666af;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #000;
+}
+/*--NAVIGATION--*/
+#topNav ul.menu ul li a {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-bottom: 1px solid #a666af;
+    color: #000000;
+    display: inline-block;
+    font-size: 11px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 150px;
+}
+/*---SLIDESHOW---*/
+#slideshow {
+    border-bottom: 5px solid #a666af;
+    margin: 0 auto;
+    position: relative;
+    width: 900px;
+}
+/*---SOCIAL MEDIA ICONS ----*/
+#interact .rss, #interact .facebook, #interact .twitter, #interact .email {
+    background: url("../images/interact-purple.png") no-repeat scroll 1px 1px transparent;
+    display: block;
+    height: 37px;
+    width: 37px;
+}
+#interact {
+	list-style: none;
+	height: 63px;
+	margin-bottom: 21px;
+}
+#interact li {
+	float: left;
+}
+#interact .rss:hover {
+	background-position: 1px -37px;
+}
+#interact .facebook {
+	background-position: -41px 1px;
+	margin-left: 3px;
+}
+#interact .facebook:hover {
+	background-position: -41px -37px;
+}
+#interact .twitter {
+	background-position: -80px 1px;
+	margin-left: 3px;
+}
+#interact .twitter:hover {
+	background-position: -80px -37px;
+}
+#interact .email {
+	background-position: -120px 1px;
+	margin-left: 3px;
+}
+#interact .email:hover {
+	background-position: -120px -37px;
+}
+/*---MODULE VARIATIONS---*/
+.custom-box2 {
+	-moz-box-shadow: inset 0 0 5px 5px #763080;
+	-webkit-box-shadow: inset 0 0 5px 5px #763080;
+	box-shadow: inset 0 0 5px 5px #763080;
+	background:#a666af;
+	padding:10px;
+	margin-bottom:20px;
+}
+/* --- TITLE VARIATIONS ---*/
+.title1 h3 {
+	border-bottom:3px solid #a666af;
+}
+.title2 h3 {
+	background: url(title2bg-purple.jpg) left center no-repeat;
+	padding-left:25px;
+}
+.title3 h3 {
+	background: url(title3bg.jpg) left center no-repeat;
+	padding-left:30px;
+	height:22px;
+}

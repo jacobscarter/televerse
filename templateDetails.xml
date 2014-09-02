@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+        <name>televerse</name>
+        <creationDate>2013-08-21</creationDate>
+        <author>Jacob Carter</author>
+        <authorEmail>jcarter@crexendo.com</authorEmail>
+        <authorUrl>http://www.crexendo.com</authorUrl>
+        <copyright>Crexendo 2013</copyright>
+        <license>GNU/GPL</license>
+        <version>1.0.2</version>
+        <description>Tele-Verse Template as Built by Crexendo</description>
+        <files>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+				<filename>template_preview.png</filename>
+				<filename>template_thumbnail.png</filename>
+                <folder>images</folder>
+                <folder>css</folder>
+				<folder>language</folder>
+        </files>
+		<languages folder="language">
+			<language tag="en-GB">en-GB/en-GB.tpl_televerse.ini</language>
+		</languages>
+        <positions>
+			<position>topNav</position>
+			<position>search</position>
+			<position>showCase</position>
+			<position>utility</position>
+			<position>mainTop</position>
+			<position>mainBottom</position>
+			<position>sidebar</position>
+			<position>footer</position>
+			<position>bottom</position>
+        </positions>
+				<config>
+    		<fields name="params">
+    			<fieldset name="advanced">
+					<field name="logoURL" type="input" label="TPL_TELEVERSE_LOGO_URL" default="images/televerse/logos/logo.png"></field>
+    				<field name="templateColor" type="list" default="gray" label="TPL_TELEVERSE_TEMPLATE_COLOR" description="" filter="word">
+    					<option value="gray">TPL_TELEVERSE_TEMPLATE_COLOR_GRAY</option>
+    					<option value="red">TPL_TELEVERSE_TEMPLATE_COLOR_RED</option>
+    					<option value="blue">TPL_TELEVERSE_TEMPLATE_COLOR_BLUE</option>
+    					<option value="lime">TPL_TELEVERSE_TEMPLATE_COLOR_LIME</option>
+    					<option value="purple">TPL_TELEVERSE_TEMPLATE_COLOR_PURPLE</option>
+    				</field>
+    			<field name="showAuthor" type="radio" default="0" label="TPL_TELEVERSE_SHOW_AUTHOR_CREDITS" description="">
+   						<option value="0">Show</option>
+    					<option value="1">Hide</option>
+    			</field>
+    			<field name="interactText" type="input" label="TPL_TELEVERSE_INTERACT_TEXT" default="Interact"></field>
+    			<field name="showRSS" type="radio" default="0" label="TPL_TELEVERSE_SHOW_RSS" description="">
+    				<option value="0">Show</option>
+    				<option value="1">Hide</option>
+    			</field>
+    			<field name="rssURL" type="input" label="TPL_TELEVERSE_RSS_URL"></field>
+    			<field name="showFacebook" type="radio" default="0" label="TPL_TELEVERSE_SHOW_FACEBOOK" description="">
+    				<option value="0">Show</option>
+    				<option value="1">Hide</option>
+    			</field>
+    			<field name="facebookURL" type="input" label="TPL_TELEVERSE_FACEBOOK_URL"></field>
+    			<field name="showTwitter" type="radio" default="0" label="TPL_TELEVERSE_SHOW_TWITTER" description="">
+    				<option value="0">Show</option>
+    				<option value="1">Hide</option>
+    			</field>
+    			<field name="twitterURL" type="input" label="TPL_TELEVERSE_TWITTER_URL"></field>
+    			<field name="showEmail" type="radio" default="0" label="TPL_TELEVERSE_SHOW_EMAIL" description="">
+    				<option value="0">Show</option>
+    				<option value="1">Hide</option>
+    			</field>
+    			<field name="emailURL" type="input" label="TPL_TELEVERSE_EMAIL_URL"></field>
+    		</fieldset>
+    	</fields>
+		<fields name="params">
+    			<fieldset name="slideshow">
+					<field name="showShowcase" type="radio" default="1" label="TPL_TELEVERSE_SHOW_SLIDESHOW" description="To Have A Slideshow At The Top Of Your Page Select 'Show'">
+    				<option value="0">Show</option>
+    				<option value="1">Hide</option>
+    			</field>
+    			<field name="slide1URL" type="input" label="TPL_TELEVERSE_SLIDE1_URL"></field>
+				<field name="slide2URL" type="input" label="TPL_TELEVERSE_SLIDE2_URL"></field>
+				<field name="slide3URL" type="input" label="TPL_TELEVERSE_SLIDE3_URL"></field>
+			</fieldset>
+		</fields>
+    </config>
+</extension>

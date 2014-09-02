@@ -1,0 +1,30 @@
+/*Template Color - Blue Theme*/
+#bodywrapper {
+    border-top: 5px solid #5F9ACE;
+    border-bottom: 5px solid #5F9ACE;
+}
+#topBar {
+	width: 100%;
+	height: 120px;
+}
+#topNav .menu li a {
+	
+}
+#topNav .menu li a:hover {
+	background: #eeeeee;
+}
+#search .inputbox {
+	border-color: #3F5A84 #CCC #CCC #3F5A84;
+}
+a {
+	color: #3F5A84;
+}
+a:hover {
+	color: #5F9ACE;
+}
+a:visited {
+	color: #3F5A84;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #000;
+}
